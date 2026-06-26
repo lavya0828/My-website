@@ -1,0 +1,116 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:url('https://images.unsplash.com/photo-1635322966219-b75ed372eb01?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.55);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#7CFC00;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:600;
+transition:.3s;
+}
+
+nav a:hover{
+color:#7CFC00;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.content h1{
+font-size:60px;
+margin-bottom:20px;
+text-shadow:0 0 20px lime;
+}
+
+.content p{
+font-size:20px;
+margin-bottom:35px;
+}
+
+.buttons a{
+display:inline-block;
+padding:15px 35px;
+border-radius:10px;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.shop{
+background:#7CFC00;
+color:black;
+}
+
+.discord{
+background:#5865F2;
+color:white;
+}
+
+.buttons a:hover{
+transform:scale(1.08);
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:60px 8%;
+}
+
+.box{
+background:rgba(255,255,255,.1);
+padding:25px;
+border-radius:15px;
+backdrop-filter:blur(8px);
+text-align:center;
+font-size:18px;
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:rgba(0,0,0,.6);
+}
